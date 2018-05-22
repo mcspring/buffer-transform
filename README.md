@@ -5,7 +5,8 @@ Buffered transform stream for nodejs.
 ## Usage
 
 ```javascript
-const BufferTransform = require('buffer-transform');
+const stream = require('stream'),
+    BufferTransform = require('buffer-transform');
 
 var s = 'Hello,world!',
     i = 0;
