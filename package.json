@@ -1,0 +1,31 @@
+{
+  "name": "buffer-transform",
+  "version": "1.0.0",
+  "description": "Buffered transform stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/**/*.spec.js",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcspring/buffer-transform.git"
+  },
+  "keywords": [
+    "nodejs",
+    "stream",
+    "buffer",
+    "transform"
+  ],
+  "author": "Spring MC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcspring/buffer-transform/issues"
+  },
+  "homepage": "https://github.com/mcspring/buffer-transform#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "mocha": "^5.2.0"
+  }
+}
